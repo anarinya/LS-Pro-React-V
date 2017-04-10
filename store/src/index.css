@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.App .header {
+  border-bottom: 1px solid #eee;
+  height: 50px;
+  line-height: 50px;
+  padding: 10px 20px;
+}
+
+.App .header .title {
+  font-size: 2em;
+  float:left;
+}
+
+.App .main {
+  padding: 0 20px;
+}
+
+.Nav {
+  list-style: none;
+  font-size: 1.4em;
+  float: right;
+  margin: 0;
+}
+
+.Nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.Nav a {
+  text-decoration: none;
+}
+
+.Nav a:hover {
+  color: orange;
+}
+
+.Home {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.Home .welcome-text {
+  font-size: 2em;
+}
+
+.Home .welcome-area img {
+  width: 100px;
+  padding: 30px;
+}
+
+.Products .product-list {
+  list-style: none;
+  text-align: center;
+}
+
+.Products .product-list li {
+  height: 150px;
+  min-width: 160px;
+  background-color: #fff;
+  text-align: center;
+  border: 10px solid #000;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+}
+
+.Products .product-list img, 
+.ProductDetail .product-img, 
+.ProductDetail .rupee,
+.Home .welcome-area img {
+  image-rendering: -moz-pixelated;         /* Firefox */
+  image-rendering:   -o-pixelated;         /* Opera */
+  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+}
+
+.Products .product-list img {
+  height: 100%;
+
+}
+
+.ProductDetail .product-img {
+  min-width: 200px;
+}
+
+.ProductDetail .product-area {
+  margin: 0 auto;
+  width: 600px;
+  display: block;
+}
+
+.ProductDetail .img-area {
+  float: left;
+  text-align: right;
+  background-color: #fff;
+  text-align: center;
+  border: 20px solid #000;
+  display: inline-block;
+  margin: 20px;
+  padding: 40px;
+}
+
+.ProductDetail .img-desc {
+  float: left;
+  display: inline-block;
+  font-size: 2em;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.ProductDetail .breadcrumbs {
+  margin-bottom: 50px;
+}
+
+.ProductDetail .price {
+  margin: auto;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  font-size: 2em;
+  width: 170px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.ProductDetail .rupee {
+  width: 50px;
+  float: left;
+  margin-right: 20px;
+}
+
+@media (max-width: 650px) {
+  .Nav {
+    margin: 20px 0;
+    text-align: left;
+    padding: 0;
+    width: 100%;
+  }
+
+.Nav li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.Nav li:first-child {
+  margin-right: 30px;
+}
+
+  .Home .welcome-area img {
+  width: 80px;
+  padding: 10px;
+}
+
+.ProductDetail .product-area {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+  background: green;
+  display: block;
+}
+
+.ProductDetail .img-area {
+  background-color: #fff;
+  text-align: center;
+  border: 20px solid #000;
+  margin: 5px 20px 0px 20px;
+  padding: 40px;
+}
+
+.ProductDetail .img-desc {
+  margin: auto;
+  font-size: 2em;
+  padding: 20px;
+  width: 300px;
+}
+}

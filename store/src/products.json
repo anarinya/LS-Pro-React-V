@@ -1,0 +1,26 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Sword",
+    "price": 100,
+    "img": "sword.gif",
+    "desc1": "A super basic sword.",
+    "desc2": "+1 attack"
+  },
+  "2": {
+    "id": 2,
+    "name": "Bow",
+    "price": 300,
+    "img": "bow.gif",
+    "desc1": "A super basic bow.",
+    "desc2": "+1 attack"
+  },
+  "3": {
+    "id": 3,
+    "name": "Shield",
+    "price": 200,
+    "img": "shield.gif",
+    "desc1": "A super basic shield.",
+    "desc2": "+1 defense"
+  }
+}
