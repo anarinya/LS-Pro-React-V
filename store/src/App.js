@@ -20,7 +20,7 @@ export default class App extends Component {
             <div className="container">
               <Route exact path="/" component={Home} />
               <Route exact path="/products" component={Products} />
-              <Route exact path="/products/:productId" component={ProductDetail} />
+              <Route path="/products/:productId" component={ProductDetail} />
             </div>
           </div>
         </div>
@@ -73,8 +73,8 @@ function Products({ match }) {
 function ProductDetail({ match }) {
   const { productId } = match.params;
   const product = products[productId];
-  const img = "../img/" + product.img;
-  const rupee = "../img/rupee.gif";
+  const img = "img/" + product.img;
+  const rupee = "img/rupee.gif";
   const desc1 = product.desc1;
   const desc2 = product.desc2;
 
