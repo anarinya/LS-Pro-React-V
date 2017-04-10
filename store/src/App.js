@@ -45,9 +45,9 @@ function Home() {
         Welcome to the weapon shop! It's dangerous to go alone!
       </p>
       <div className="welcome-area">
-        <img src="../img/fire.gif" alt="fire" />
-        <img src="../img/merchant.gif" alt="merchant" />
-        <img src="../img/fire.gif" alt="merchant" />
+        <img src="img/fire.gif" alt="fire" />
+        <img src="img/merchant.gif" alt="merchant" />
+        <img src="img/fire.gif" alt="merchant" />
       </div>
     </div>
   );
