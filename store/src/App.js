@@ -42,7 +42,7 @@ function Home() {
   return (
     <div className="Home">
       <p className="welcome-text">
-        Welcome to the weapon shop! It's dangerous to go alone!
+        Welcome to the weapon shop! Buy somethin', will ya?!
       </p>
       <div className="welcome-area">
         <img src="img/fire.gif" alt="fire" />
